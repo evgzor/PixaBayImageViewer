@@ -12,5 +12,4 @@
 
 ## Project Goals
 
-This challenge has the goal to give us an impression of your coding skills. You have 24 hours of time to
-implement. Send us back the following project as ZIP file using Dropbox or a similar sharing provider.
+This challenge has the goal to give us an impression of my coding skills.
