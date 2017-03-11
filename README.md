@@ -12,4 +12,4 @@
 
 ## Project Goals
 
-This challenge has the goal to give us an impression of my coding skills.
+This challenge has the goal to give an impression of Evgeny Zorin coding skills.
