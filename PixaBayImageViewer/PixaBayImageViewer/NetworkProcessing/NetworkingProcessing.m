@@ -24,7 +24,7 @@ NSString *const kPersonalToken = @"4787339-d63fe94a98390ef456fd6cab8";
         if (error) {
             errorBlock(error);
         } else {
-            NSArray* dataArray = [Hits arrayWithResultsArray: responseObject[@"hits"]];
+            NSArray* dataArray = [PixaBayImageModel modelObjectWithDictionary:responseObject].hits;
             
             completitionBlock(dataArray);
         }

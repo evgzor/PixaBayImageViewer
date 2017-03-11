@@ -45,7 +45,7 @@ static NSString *const kPersonalToken = @"4787339-d63fe94a98390ef456fd6cab8";
   while (!self.responceObject) {
     CFRunLoopRunInMode(kCFRunLoopDefaultMode, 0.01, YES);
   }
-  self.staticObject = [[self class] dictionaryWithContentsOfJSONString:@"sampleData.json"][@"hits"];
+  self.staticObject = [[self class] dictionaryWithContentsOfJSONString:@"sampleData.json"];
 }
 
 - (void)tearDown {
@@ -64,6 +64,7 @@ static NSString *const kPersonalToken = @"4787339-d63fe94a98390ef456fd6cab8";
   if (error != nil) return nil;
   return result;
 }
+#pragma mark - Test Network Data fetch
 
 - (void)testAListRetrive {
   
@@ -84,10 +85,11 @@ static NSString *const kPersonalToken = @"4787339-d63fe94a98390ef456fd6cab8";
   }];
 }
 
+#pragma mark - Test Parcing Data from sample.json static file
 
 -(void) testCParceList
 {
-  NSArray* dataFromFile = [Hits arrayWithResultsArray: (NSArray*)self.staticObject];
+  NSArray* dataFromFile = [PixaBayImageModel modelObjectWithDictionary: self.staticObject].hits;
   
   XCTAssertGreaterThan(dataFromFile.count, (uint)1);
   
