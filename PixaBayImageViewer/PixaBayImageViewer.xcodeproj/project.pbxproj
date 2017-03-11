@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A17BA69EDAFEAAB2BEA22F /* libPods-PixaBayImageViewerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AB6DBA1A7EBDD810DC0EFE1 /* libPods-PixaBayImageViewerTests.a */; };
+		7F9B545B1168D36E487A5509 /* libPods-PixaBayImageViewerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71653148EA11E155AD747365 /* libPods-PixaBayImageViewerUITests.a */; };
+		C728891A82B1B85B1014B97F /* libPods-PixaBayImageViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1FFDABEB21777322485C10B /* libPods-PixaBayImageViewer.a */; };
+		F01897CD1E71B55D00169AFA /* ImageListMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897CC1E71B55D00169AFA /* ImageListMainViewController.m */; };
+		F01897D01E71C92100169AFA /* DetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897CF1E71C92100169AFA /* DetailImageViewController.m */; };
+		F01897D41E71CA1800169AFA /* NetworkingProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897D31E71CA1800169AFA /* NetworkingProcessing.m */; };
+		F01897DB1E71CC0300169AFA /* Hits.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897D81E71CC0300169AFA /* Hits.m */; };
+		F01897DC1E71CC0300169AFA /* PixaBayImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897DA1E71CC0300169AFA /* PixaBayImageModel.m */; };
+		F01897E21E71E9C500169AFA /* ImageMainListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897E11E71E9C500169AFA /* ImageMainListTableViewCell.m */; };
+		F05066E81E73D5400053A4BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06EC9E51E717C6D0075C61D /* AppDelegate.m */; };
+		F05066E91E73D5470053A4BB /* Hits.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897D81E71CC0300169AFA /* Hits.m */; };
+		F05066EA1E73D54B0053A4BB /* PixaBayImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897DA1E71CC0300169AFA /* PixaBayImageModel.m */; };
+		F05066EB1E73D54F0053A4BB /* ImageMainListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897E11E71E9C500169AFA /* ImageMainListTableViewCell.m */; };
+		F05066EC1E73D5520053A4BB /* ImageItemDescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EECD0C1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.m */; };
+		F05066ED1E73D5540053A4BB /* UIImageView+LoadImageWithIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EECCBD1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.m */; };
+		F05066EE1E73D55C0053A4BB /* ImageListMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897CC1E71B55D00169AFA /* ImageListMainViewController.m */; };
+		F05066EF1E73D55E0053A4BB /* DetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897CF1E71C92100169AFA /* DetailImageViewController.m */; };
+		F05066F01E73D5640053A4BB /* NetworkingProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897D31E71CA1800169AFA /* NetworkingProcessing.m */; };
+		F05066F11E73D56B0053A4BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06EC9EA1E717C6D0075C61D /* Main.storyboard */; };
+		F05066F21E73D5710053A4BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06EC9E21E717C6D0075C61D /* main.m */; };
+		F06EC9E31E717C6D0075C61D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F06EC9E21E717C6D0075C61D /* main.m */; };
+		F06EC9E61E717C6D0075C61D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F06EC9E51E717C6D0075C61D /* AppDelegate.m */; };
+		F06EC9EC1E717C6D0075C61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06EC9EA1E717C6D0075C61D /* Main.storyboard */; };
+		F06EC9EE1E717C6D0075C61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06EC9ED1E717C6D0075C61D /* Assets.xcassets */; };
+		F06EC9F11E717C6D0075C61D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06EC9EF1E717C6D0075C61D /* LaunchScreen.storyboard */; };
+		F06EC9FC1E717C6D0075C61D /* PixaBayImageViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F06EC9FB1E717C6D0075C61D /* PixaBayImageViewerTests.m */; };
+		F06ECA071E717C6D0075C61D /* PixaBayImageViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F06ECA061E717C6D0075C61D /* PixaBayImageViewerUITests.m */; };
+		F0EECCBE1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EECCBD1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.m */; };
+		F0EECD0D1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EECD0C1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.m */; };
+		F0EECD0F1E732954001FB7A1 /* sampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = F0EECD0E1E732954001FB7A1 /* sampleData.json */; };
+		F0EECD101E7329BD001FB7A1 /* NetworkingProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897D31E71CA1800169AFA /* NetworkingProcessing.m */; };
+		F0EECD111E7329C2001FB7A1 /* PixaBayImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897DA1E71CC0300169AFA /* PixaBayImageModel.m */; };
+		F0EECD121E7329C6001FB7A1 /* Hits.m in Sources */ = {isa = PBXBuildFile; fileRef = F01897D81E71CC0300169AFA /* Hits.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06EC9F81E717C6D0075C61D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06EC9D61E717C6D0075C61D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06EC9DD1E717C6D0075C61D;
+			remoteInfo = PixaBayImageViewer;
+		};
+		F06ECA031E717C6D0075C61D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06EC9D61E717C6D0075C61D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06EC9DD1E717C6D0075C61D;
+			remoteInfo = PixaBayImageViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ECACE88A5192D0B478CA4D4 /* Pods-PixaBayImageViewerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayImageViewerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixaBayImageViewerUITests/Pods-PixaBayImageViewerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71653148EA11E155AD747365 /* libPods-PixaBayImageViewerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixaBayImageViewerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB6DBA1A7EBDD810DC0EFE1 /* libPods-PixaBayImageViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixaBayImageViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A5D0DCF6127DF870C91D01 /* Pods-PixaBayImageViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayImageViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixaBayImageViewer/Pods-PixaBayImageViewer.release.xcconfig"; sourceTree = "<group>"; };
+		958BA8FE5E8E3E58160380B7 /* Pods-PixaBayImageViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayImageViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixaBayImageViewerTests/Pods-PixaBayImageViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AB500A0E94A7039BCA1FDA4 /* Pods-PixaBayImageViewerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayImageViewerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixaBayImageViewerUITests/Pods-PixaBayImageViewerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A533F89DE262E162EA40B9 /* Pods-PixaBayImageViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayImageViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixaBayImageViewer/Pods-PixaBayImageViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		C4E243EBEA2151F9EACAEBB5 /* Pods-PixaBayImageViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixaBayImageViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixaBayImageViewerTests/Pods-PixaBayImageViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1FFDABEB21777322485C10B /* libPods-PixaBayImageViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixaBayImageViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01897CB1E71B55D00169AFA /* ImageListMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageListMainViewController.h; sourceTree = "<group>"; };
+		F01897CC1E71B55D00169AFA /* ImageListMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageListMainViewController.m; sourceTree = "<group>"; };
+		F01897CE1E71C92100169AFA /* DetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailImageViewController.h; sourceTree = "<group>"; };
+		F01897CF1E71C92100169AFA /* DetailImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailImageViewController.m; sourceTree = "<group>"; };
+		F01897D21E71CA1800169AFA /* NetworkingProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkingProcessing.h; sourceTree = "<group>"; };
+		F01897D31E71CA1800169AFA /* NetworkingProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkingProcessing.m; sourceTree = "<group>"; };
+		F01897D61E71CC0300169AFA /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		F01897D71E71CC0300169AFA /* Hits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hits.h; sourceTree = "<group>"; };
+		F01897D81E71CC0300169AFA /* Hits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hits.m; sourceTree = "<group>"; };
+		F01897D91E71CC0300169AFA /* PixaBayImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixaBayImageModel.h; sourceTree = "<group>"; };
+		F01897DA1E71CC0300169AFA /* PixaBayImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixaBayImageModel.m; sourceTree = "<group>"; };
+		F01897DD1E71CE5600169AFA /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		F01897E01E71E9C500169AFA /* ImageMainListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageMainListTableViewCell.h; path = PixaBayImageViewer/Views/ImageMainListTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		F01897E11E71E9C500169AFA /* ImageMainListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageMainListTableViewCell.m; path = PixaBayImageViewer/Views/ImageMainListTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		F06EC9DE1E717C6D0075C61D /* PixaBayImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixaBayImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06EC9E21E717C6D0075C61D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F06EC9E41E717C6D0075C61D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F06EC9E51E717C6D0075C61D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F06EC9EB1E717C6D0075C61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06EC9ED1E717C6D0075C61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06EC9F01E717C6D0075C61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06EC9F21E717C6D0075C61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06EC9F71E717C6D0075C61D /* PixaBayImageViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixaBayImageViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06EC9FB1E717C6D0075C61D /* PixaBayImageViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixaBayImageViewerTests.m; sourceTree = "<group>"; };
+		F06EC9FD1E717C6D0075C61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06ECA021E717C6D0075C61D /* PixaBayImageViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixaBayImageViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06ECA061E717C6D0075C61D /* PixaBayImageViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PixaBayImageViewerUITests.m; sourceTree = "<group>"; };
+		F06ECA081E717C6D0075C61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EECCBC1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+LoadImageWithIndicator.h"; path = "PixaBayImageViewer/Views/UIImageView+LoadImageWithIndicator.h"; sourceTree = SOURCE_ROOT; };
+		F0EECCBD1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+LoadImageWithIndicator.m"; path = "PixaBayImageViewer/Views/UIImageView+LoadImageWithIndicator.m"; sourceTree = SOURCE_ROOT; };
+		F0EECD0B1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageItemDescriptionTableViewCell.h; path = PixaBayImageViewer/Views/ImageItemDescriptionTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		F0EECD0C1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageItemDescriptionTableViewCell.m; path = PixaBayImageViewer/Views/ImageItemDescriptionTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		F0EECD0E1E732954001FB7A1 /* sampleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06EC9DB1E717C6D0075C61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C728891A82B1B85B1014B97F /* libPods-PixaBayImageViewer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06EC9F41E717C6D0075C61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A17BA69EDAFEAAB2BEA22F /* libPods-PixaBayImageViewerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06EC9FF1E717C6D0075C61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9B545B1168D36E487A5509 /* libPods-PixaBayImageViewerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F4D3BBE648C24D3666A0D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1FFDABEB21777322485C10B /* libPods-PixaBayImageViewer.a */,
+				7AB6DBA1A7EBDD810DC0EFE1 /* libPods-PixaBayImageViewerTests.a */,
+				71653148EA11E155AD747365 /* libPods-PixaBayImageViewerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		492A0A498226C20805C3E13F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2A533F89DE262E162EA40B9 /* Pods-PixaBayImageViewer.debug.xcconfig */,
+				88A5D0DCF6127DF870C91D01 /* Pods-PixaBayImageViewer.release.xcconfig */,
+				C4E243EBEA2151F9EACAEBB5 /* Pods-PixaBayImageViewerTests.debug.xcconfig */,
+				958BA8FE5E8E3E58160380B7 /* Pods-PixaBayImageViewerTests.release.xcconfig */,
+				9AB500A0E94A7039BCA1FDA4 /* Pods-PixaBayImageViewerUITests.debug.xcconfig */,
+				0ECACE88A5192D0B478CA4D4 /* Pods-PixaBayImageViewerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F01897CA1E71B55D00169AFA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F01897CB1E71B55D00169AFA /* ImageListMainViewController.h */,
+				F01897CC1E71B55D00169AFA /* ImageListMainViewController.m */,
+				F01897CE1E71C92100169AFA /* DetailImageViewController.h */,
+				F01897CF1E71C92100169AFA /* DetailImageViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F01897D11E71CA1800169AFA /* NetworkProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				F01897D21E71CA1800169AFA /* NetworkingProcessing.h */,
+				F01897D31E71CA1800169AFA /* NetworkingProcessing.m */,
+			);
+			path = NetworkProcessing;
+			sourceTree = "<group>";
+		};
+		F01897D51E71CC0300169AFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F01897D61E71CC0300169AFA /* DataModels.h */,
+				F01897D71E71CC0300169AFA /* Hits.h */,
+				F01897D81E71CC0300169AFA /* Hits.m */,
+				F01897D91E71CC0300169AFA /* PixaBayImageModel.h */,
+				F01897DA1E71CC0300169AFA /* PixaBayImageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F01897DF1E71CE6100169AFA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F06EC9E41E717C6D0075C61D /* AppDelegate.h */,
+				F06EC9E51E717C6D0075C61D /* AppDelegate.m */,
+				F01897DD1E71CE5600169AFA /* Warnings.xcconfig */,
+				F06EC9F21E717C6D0075C61D /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		F01897E31E71EADB00169AFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F01897E01E71E9C500169AFA /* ImageMainListTableViewCell.h */,
+				F01897E11E71E9C500169AFA /* ImageMainListTableViewCell.m */,
+				F0EECD0B1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.h */,
+				F0EECD0C1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.m */,
+				F0EECCBC1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.h */,
+				F0EECCBD1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.m */,
+			);
+			name = View;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F06EC9D51E717C6D0075C61D = {
+			isa = PBXGroup;
+			children = (
+				F06EC9E01E717C6D0075C61D /* PixaBayImageViewer */,
+				F06EC9FA1E717C6D0075C61D /* PixaBayImageViewerTests */,
+				F06ECA051E717C6D0075C61D /* PixaBayImageViewerUITests */,
+				F06EC9DF1E717C6D0075C61D /* Products */,
+				492A0A498226C20805C3E13F /* Pods */,
+				2F4D3BBE648C24D3666A0D1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F06EC9DF1E717C6D0075C61D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06EC9DE1E717C6D0075C61D /* PixaBayImageViewer.app */,
+				F06EC9F71E717C6D0075C61D /* PixaBayImageViewerTests.xctest */,
+				F06ECA021E717C6D0075C61D /* PixaBayImageViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06EC9E01E717C6D0075C61D /* PixaBayImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				F01897DF1E71CE6100169AFA /* Application */,
+				F01897D51E71CC0300169AFA /* Model */,
+				F01897E31E71EADB00169AFA /* View */,
+				F01897CA1E71B55D00169AFA /* ViewControllers */,
+				F01897D11E71CA1800169AFA /* NetworkProcessing */,
+				F06EC9EA1E717C6D0075C61D /* Main.storyboard */,
+				F06EC9ED1E717C6D0075C61D /* Assets.xcassets */,
+				F06EC9EF1E717C6D0075C61D /* LaunchScreen.storyboard */,
+				F06EC9E11E717C6D0075C61D /* Supporting Files */,
+			);
+			path = PixaBayImageViewer;
+			sourceTree = "<group>";
+		};
+		F06EC9E11E717C6D0075C61D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06EC9E21E717C6D0075C61D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F06EC9FA1E717C6D0075C61D /* PixaBayImageViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0EECD0E1E732954001FB7A1 /* sampleData.json */,
+				F06EC9FB1E717C6D0075C61D /* PixaBayImageViewerTests.m */,
+				F06EC9FD1E717C6D0075C61D /* Info.plist */,
+			);
+			path = PixaBayImageViewerTests;
+			sourceTree = "<group>";
+		};
+		F06ECA051E717C6D0075C61D /* PixaBayImageViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F06ECA061E717C6D0075C61D /* PixaBayImageViewerUITests.m */,
+				F06ECA081E717C6D0075C61D /* Info.plist */,
+			);
+			path = PixaBayImageViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06EC9DD1E717C6D0075C61D /* PixaBayImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ECA0B1E717C6D0075C61D /* Build configuration list for PBXNativeTarget "PixaBayImageViewer" */;
+			buildPhases = (
+				28C2BD0AD6F0B30E1F664BF6 /* [CP] Check Pods Manifest.lock */,
+				F06EC9DA1E717C6D0075C61D /* Sources */,
+				F06EC9DB1E717C6D0075C61D /* Frameworks */,
+				F06EC9DC1E717C6D0075C61D /* Resources */,
+				6D6EC2EB7C271A2C7B458F41 /* [CP] Embed Pods Frameworks */,
+				B793D316C02037066B521F83 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixaBayImageViewer;
+			productName = PixaBayImageViewer;
+			productReference = F06EC9DE1E717C6D0075C61D /* PixaBayImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F06EC9F61E717C6D0075C61D /* PixaBayImageViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ECA0E1E717C6D0075C61D /* Build configuration list for PBXNativeTarget "PixaBayImageViewerTests" */;
+			buildPhases = (
+				EE4DB9DC1FC5BA74BC71D3A2 /* [CP] Check Pods Manifest.lock */,
+				F06EC9F31E717C6D0075C61D /* Sources */,
+				F06EC9F41E717C6D0075C61D /* Frameworks */,
+				F06EC9F51E717C6D0075C61D /* Resources */,
+				7C5A214C1163FCE7502A9770 /* [CP] Embed Pods Frameworks */,
+				FAB6E25E8EBEEC9517C7EDFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06EC9F91E717C6D0075C61D /* PBXTargetDependency */,
+			);
+			name = PixaBayImageViewerTests;
+			productName = PixaBayImageViewerTests;
+			productReference = F06EC9F71E717C6D0075C61D /* PixaBayImageViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F06ECA011E717C6D0075C61D /* PixaBayImageViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06ECA111E717C6D0075C61D /* Build configuration list for PBXNativeTarget "PixaBayImageViewerUITests" */;
+			buildPhases = (
+				B23BA3FC700D2F50694B633D /* [CP] Check Pods Manifest.lock */,
+				F06EC9FE1E717C6D0075C61D /* Sources */,
+				F06EC9FF1E717C6D0075C61D /* Frameworks */,
+				F06ECA001E717C6D0075C61D /* Resources */,
+				A21160A4A60BBC4A4FDDB4D0 /* [CP] Embed Pods Frameworks */,
+				1A92F05B7A04EFD3242764FF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06ECA041E717C6D0075C61D /* PBXTargetDependency */,
+			);
+			name = PixaBayImageViewerUITests;
+			productName = PixaBayImageViewerUITests;
+			productReference = F06ECA021E717C6D0075C61D /* PixaBayImageViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06EC9D61E717C6D0075C61D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Eugene Zorin";
+				TargetAttributes = {
+					F06EC9DD1E717C6D0075C61D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F06EC9F61E717C6D0075C61D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F06EC9DD1E717C6D0075C61D;
+					};
+					F06ECA011E717C6D0075C61D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F06EC9DD1E717C6D0075C61D;
+					};
+				};
+			};
+			buildConfigurationList = F06EC9D91E717C6D0075C61D /* Build configuration list for PBXProject "PixaBayImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06EC9D51E717C6D0075C61D;
+			productRefGroup = F06EC9DF1E717C6D0075C61D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06EC9DD1E717C6D0075C61D /* PixaBayImageViewer */,
+				F06EC9F61E717C6D0075C61D /* PixaBayImageViewerTests */,
+				F06ECA011E717C6D0075C61D /* PixaBayImageViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06EC9DC1E717C6D0075C61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06EC9F11E717C6D0075C61D /* LaunchScreen.storyboard in Resources */,
+				F06EC9EE1E717C6D0075C61D /* Assets.xcassets in Resources */,
+				F06EC9EC1E717C6D0075C61D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06EC9F51E717C6D0075C61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EECD0F1E732954001FB7A1 /* sampleData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06ECA001E717C6D0075C61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05066F11E73D56B0053A4BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A92F05B7A04EFD3242764FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixaBayImageViewerUITests/Pods-PixaBayImageViewerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28C2BD0AD6F0B30E1F664BF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D6EC2EB7C271A2C7B458F41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixaBayImageViewer/Pods-PixaBayImageViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C5A214C1163FCE7502A9770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixaBayImageViewerTests/Pods-PixaBayImageViewerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21160A4A60BBC4A4FDDB4D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixaBayImageViewerUITests/Pods-PixaBayImageViewerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B23BA3FC700D2F50694B633D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B793D316C02037066B521F83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixaBayImageViewer/Pods-PixaBayImageViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4DB9DC1FC5BA74BC71D3A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB6E25E8EBEEC9517C7EDFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixaBayImageViewerTests/Pods-PixaBayImageViewerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06EC9DA1E717C6D0075C61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EECCBE1E72898B001FB7A1 /* UIImageView+LoadImageWithIndicator.m in Sources */,
+				F0EECD0D1E72FAD6001FB7A1 /* ImageItemDescriptionTableViewCell.m in Sources */,
+				F01897DC1E71CC0300169AFA /* PixaBayImageModel.m in Sources */,
+				F06EC9E61E717C6D0075C61D /* AppDelegate.m in Sources */,
+				F01897DB1E71CC0300169AFA /* Hits.m in Sources */,
+				F01897CD1E71B55D00169AFA /* ImageListMainViewController.m in Sources */,
+				F06EC9E31E717C6D0075C61D /* main.m in Sources */,
+				F01897D01E71C92100169AFA /* DetailImageViewController.m in Sources */,
+				F01897E21E71E9C500169AFA /* ImageMainListTableViewCell.m in Sources */,
+				F01897D41E71CA1800169AFA /* NetworkingProcessing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06EC9F31E717C6D0075C61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EECD111E7329C2001FB7A1 /* PixaBayImageModel.m in Sources */,
+				F0EECD121E7329C6001FB7A1 /* Hits.m in Sources */,
+				F0EECD101E7329BD001FB7A1 /* NetworkingProcessing.m in Sources */,
+				F06EC9FC1E717C6D0075C61D /* PixaBayImageViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06EC9FE1E717C6D0075C61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05066EA1E73D54B0053A4BB /* PixaBayImageModel.m in Sources */,
+				F05066E81E73D5400053A4BB /* AppDelegate.m in Sources */,
+				F05066EB1E73D54F0053A4BB /* ImageMainListTableViewCell.m in Sources */,
+				F05066EE1E73D55C0053A4BB /* ImageListMainViewController.m in Sources */,
+				F05066F01E73D5640053A4BB /* NetworkingProcessing.m in Sources */,
+				F05066EC1E73D5520053A4BB /* ImageItemDescriptionTableViewCell.m in Sources */,
+				F05066E91E73D5470053A4BB /* Hits.m in Sources */,
+				F06ECA071E717C6D0075C61D /* PixaBayImageViewerUITests.m in Sources */,
+				F05066ED1E73D5540053A4BB /* UIImageView+LoadImageWithIndicator.m in Sources */,
+				F05066F21E73D5710053A4BB /* main.m in Sources */,
+				F05066EF1E73D55E0053A4BB /* DetailImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06EC9F91E717C6D0075C61D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06EC9DD1E717C6D0075C61D /* PixaBayImageViewer */;
+			targetProxy = F06EC9F81E717C6D0075C61D /* PBXContainerItemProxy */;
+		};
+		F06ECA041E717C6D0075C61D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06EC9DD1E717C6D0075C61D /* PixaBayImageViewer */;
+			targetProxy = F06ECA031E717C6D0075C61D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F06EC9EA1E717C6D0075C61D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06EC9EB1E717C6D0075C61D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06EC9EF1E717C6D0075C61D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06EC9F01E717C6D0075C61D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06ECA091E717C6D0075C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01897DD1E71CE5600169AFA /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F06ECA0A1E717C6D0075C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06ECA0C1E717C6D0075C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A533F89DE262E162EA40B9 /* Pods-PixaBayImageViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixaBayImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.PixaBayImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		F06ECA0D1E717C6D0075C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A5D0DCF6127DF870C91D01 /* Pods-PixaBayImageViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PixaBayImageViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.PixaBayImageViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		F06ECA0F1E717C6D0075C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E243EBEA2151F9EACAEBB5 /* Pods-PixaBayImageViewerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PixaBayImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.PixaBayImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixaBayImageViewer.app/PixaBayImageViewer";
+			};
+			name = Debug;
+		};
+		F06ECA101E717C6D0075C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958BA8FE5E8E3E58160380B7 /* Pods-PixaBayImageViewerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PixaBayImageViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.PixaBayImageViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PixaBayImageViewer.app/PixaBayImageViewer";
+			};
+			name = Release;
+		};
+		F06ECA121E717C6D0075C61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB500A0E94A7039BCA1FDA4 /* Pods-PixaBayImageViewerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PixaBayImageViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.PixaBayImageViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PixaBayImageViewer;
+			};
+			name = Debug;
+		};
+		F06ECA131E717C6D0075C61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECACE88A5192D0B478CA4D4 /* Pods-PixaBayImageViewerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PixaBayImageViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zorin.PixaBayImageViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PixaBayImageViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06EC9D91E717C6D0075C61D /* Build configuration list for PBXProject "PixaBayImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ECA091E717C6D0075C61D /* Debug */,
+				F06ECA0A1E717C6D0075C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ECA0B1E717C6D0075C61D /* Build configuration list for PBXNativeTarget "PixaBayImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ECA0C1E717C6D0075C61D /* Debug */,
+				F06ECA0D1E717C6D0075C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ECA0E1E717C6D0075C61D /* Build configuration list for PBXNativeTarget "PixaBayImageViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ECA0F1E717C6D0075C61D /* Debug */,
+				F06ECA101E717C6D0075C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06ECA111E717C6D0075C61D /* Build configuration list for PBXNativeTarget "PixaBayImageViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06ECA121E717C6D0075C61D /* Debug */,
+				F06ECA131E717C6D0075C61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06EC9D61E717C6D0075C61D /* Project object */;
+}

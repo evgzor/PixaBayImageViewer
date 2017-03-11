@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '10.0'
+
+target 'PixaBayImageViewer' do
+  pod 'AFNetworking', '~> 3.0'
+
+  # Pods for PixaBayImageViewer
+
+  target 'PixaBayImageViewerTests' do
+    inherit! :search_paths
+    pod 'AFNetworking', '~> 3.0'
+    # Pods for testing
+  end
+
+  target 'PixaBayImageViewerUITests' do
+    inherit! :search_paths
+    pod 'AFNetworking', '~> 3.0'
+    # Pods for testing
+  end
+
+end
