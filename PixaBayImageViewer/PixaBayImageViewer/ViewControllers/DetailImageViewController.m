@@ -52,7 +52,7 @@ static NSString* const kParameterNumberOfComments = @"Comments";
   self.dataListParameters = @[@{kParameterUserName: self.hit.user}, @{kParameterImageTags: self.hit.tags}, @{kParameterNumberOfLikes: @(self.hit.likes)}, @{kParameterNumberOfFavorites: @(self.hit.comments)}, @{kParameterNumberOfComments: @(self.hit.comments)}];
   }
 
-#pragma mark - Memory managment
+#pragma mark - Memory management
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

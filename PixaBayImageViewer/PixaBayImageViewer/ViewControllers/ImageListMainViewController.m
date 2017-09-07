@@ -91,7 +91,7 @@ static NSString* const kTriggerQuerry = @"apples";
   }
 }
 
-#pragma mark - Memory managment
+#pragma mark - Memory management
 
 - (void)didReceiveMemoryWarning {
   [super didReceiveMemoryWarning];
