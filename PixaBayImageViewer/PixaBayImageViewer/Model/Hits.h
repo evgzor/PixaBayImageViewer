@@ -35,7 +35,7 @@
 /**
  *  Static inialization model by dictionary
  *
- *  @param dict NSDictionary instance for convertion ReposData
+ *  @param dict NSDictionary instance for conversion ReposData
  *
  *  @return ReposData instance
  */
@@ -43,7 +43,7 @@
 /**
  *  Init instance by dictionary
  *
- *  @param dict NSDictionary instance for convertion ReposData
+ *  @param dict NSDictionary instance for conversion ReposData
  *
  *  @return ReposData instance
  */
