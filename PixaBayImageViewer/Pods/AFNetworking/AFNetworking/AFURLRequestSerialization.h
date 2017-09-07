@@ -51,7 +51,7 @@ FOUNDATION_EXPORT NSString * AFPercentEscapedStringFromString(NSString *string);
 
  @param parameters A dictionary of key/values to be encoded.
 
- @return A url encoded query string
+ @return An url encoded query string
  */
 FOUNDATION_EXPORT NSString * AFQueryStringFromParameters(NSDictionary *parameters);
 
@@ -225,7 +225,7 @@ forHTTPHeaderField:(NSString *)field;
 /**
  Creates an `NSMutableURLRequest` object with the specified HTTP method and URL string.
 
- If the HTTP method is `GET`, `HEAD`, or `DELETE`, the parameters will be used to construct a url-encoded query string that is appended to the request's URL. Otherwise, the parameters will be encoded according to the value of the `parameterEncoding` property, and set as the request body.
+ If the HTTP method is `GET`, `HEAD`, or `DELETE`, the parameters will be used to construct an url-encoded query string that is appended to the request's URL. Otherwise, the parameters will be encoded according to the value of the `parameterEncoding` property, and set as the request body.
 
  @param method The HTTP method for the request, such as `GET`, `POST`, `PUT`, or `DELETE`. This parameter must not be `nil`.
  @param URLString The URL string used to create the request URL.
